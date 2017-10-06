@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Life Organizer",
+  "version": "0.0",
+  "description": "A bookmark manager extension",
+
+  "browser_action": {
+    "default_icon": {
+      "16": "ex.png"
+    },
+    "default_title": "Life Organizer",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "bookmarks",
+    "history",
+    "sessions",
+    "contextMenus"
+  ]
+}
